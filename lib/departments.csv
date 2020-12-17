@@ -1,0 +1,500 @@
+1,Consumer Goods
+2,Higher Education
+3,Civic & Social Organization
+4,Tobacco
+5,Maritime
+6,Alternative Dispute Resolution
+7,Utilities
+8,Hospital & Health Care
+9,Commercial Real Estate
+10,Insurance
+11,Events Services
+12,Information Technology and Services
+13,Utilities
+14,Medical Devices
+15,Computer Games
+16,Package / Freight Delivery
+17,Computer Networking
+18,Government Administration
+19,Tobacco
+20,Oil & Energy
+21,Political Organization
+22,Judiciary
+23,Computer Hardware
+24,Alternative Dispute Resolution
+25,Food Production
+26,Staffing and Recruiting
+27,Investment Management
+28,Nonprofit Organization Management
+29,Religious Institutions
+30,Supermarkets
+31,Computer Games
+32,E-Learning
+33,Media Production
+34,Law Enforcement
+35,Computer Games
+36,Newspapers
+37,Supermarkets
+38,Sports
+39,Consumer Electronics
+40,Supermarkets
+41,Package / Freight Delivery
+42,Research
+43,Graphic Design
+44,Outsourcing / Offshoring
+45,Hospital & Health Care
+46,Apparel & Fashion
+47,Business Supplies and Equipment
+48,Human Resources
+49,Furniture
+50,Entertainment
+51,Computer Games
+52,Biotechnology
+53,Oil & Energy
+54,Government Relations
+55,Dairy
+56,Graphic Design
+57,Tobacco
+58,Ranching
+59,Semiconductors
+60,Media Production
+61,Staffing and Recruiting
+62,Government Administration
+63,Plastics
+64,Retail
+65,Tobacco
+66,Outsourcing / Offshoring
+67,Food & Beverages
+68,Sports
+69,Semiconductors
+70,Facilities Services
+71,Design
+72,Defense & Space
+73,Recreational Facilities and Services
+74,Alternative Medicine
+75,International Trade and Development
+76,Information Technology and Services
+77,Publishing
+78,Airlines / Aviation
+79,Arts and Crafts
+80,Military
+81,Telecommunications
+82,Automotive
+83,Government Administration
+84,Industrial Automation
+85,International Trade and Development
+86,Chemicals
+87,Program Development
+88,Capital Markets
+89,Farming
+90,Military
+91,Cosmetics
+92,Management Consulting
+93,Semiconductors
+94,Chemicals
+95,Primary / Secondary Education
+96,Railroad Manufacture
+97,Government Administration
+98,Banking
+99,Accounting
+100,Paper & Forest Products
+101,Commercial Real Estate
+102,Business Supplies and Equipment
+103,Program Development
+104,Military
+105,Computer Hardware
+106,Apparel & Fashion
+107,Restaurants
+108,Hospitality
+109,Automotive
+110,Insurance
+111,Museums and Institutions
+112,Computer Software
+113,Computer Hardware
+114,Market Research
+115,Medical Devices
+116,Furniture
+117,Industrial Automation
+118,Renewables & Environment
+119,Wireless
+120,Primary / Secondary Education
+121,Shipbuilding
+122,Hospital & Health Care
+123,Banking
+124,Computer Networking
+125,Semiconductors
+126,Accounting
+127,Graphic Design
+128,Executive Office
+129,Information Technology and Services
+130,Chemicals
+131,Public Policy
+132,Civic & Social Organization
+133,Sporting Goods
+134,Computer Hardware
+135,Venture Capital & Private Equity
+136,Food Production
+137,Performing Arts
+138,Industrial Automation
+139,Graphic Design
+140,Consumer Goods
+141,Music
+142,Public Relations and Communications
+143,Computer Games
+144,Wireless
+145,Publishing
+146,Military
+147,Legislative Office
+148,Philanthropy
+149,Military
+150,Semiconductors
+151,Computer Games
+152,Staffing and Recruiting
+153,Legal Services
+154,Nonprofit Organization Management
+155,Mechanical or Industrial Engineering
+156,Printing
+157,Food & Beverages
+158,Environmental Services
+159,Furniture
+160,"Health, Wellness and Fitness"
+161,Law Practice
+162,Museums and Institutions
+163,Military
+164,Hospital & Health Care
+165,Translation and Localization
+166,Fine Art
+167,Nonprofit Organization Management
+168,Online Media
+169,Building Materials
+170,Maritime
+171,Paper & Forest Products
+172,Pharmaceuticals
+173,Facilities Services
+174,Religious Institutions
+175,Motion Pictures and Film
+176,Writing and Editing
+177,Design
+178,Medical Practice
+179,Publishing
+180,Law Practice
+181,Media Production
+182,Management Consulting
+183,Computer Networking
+184,Food & Beverages
+185,Shipbuilding
+186,Newspapers
+187,Computer Games
+188,Mental Health Care
+189,Renewables & Environment
+190,Nonprofit Organization Management
+191,Professional Training & Coaching
+192,Executive Office
+193,Individual & Family Services
+194,Consumer Services
+195,Arts and Crafts
+196,Import and Export
+197,Venture Capital & Private Equity
+198,Outsourcing / Offshoring
+199,Investment Banking
+200,Printing
+201,Nanotechnology
+202,Broadcast Media
+203,Security and Investigations
+204,Program Development
+205,Alternative Dispute Resolution
+206,Electrical / Electronic Manufacturing
+207,Management Consulting
+208,Automotive
+209,Transportationg / Trucking / Railroad
+210,Hospital & Health Care
+211,Business Supplies and Equipment
+212,Computer & Network Security
+213,Business Supplies and Equipment
+214,International Affairs
+215,Primary / Secondary Education
+216,Semiconductors
+217,Political Organization
+218,Political Organization
+219,E-Learning
+220,Restaurants
+221,Public Relations and Communications
+222,Fund-Raising
+223,Alternative Dispute Resolution
+224,E-Learning
+225,Program Development
+226,Chemicals
+227,Fund-Raising
+228,Legal Services
+229,Tobacco
+230,Investment Management
+231,Defense & Space
+232,Professional Training & Coaching
+233,Environmental Services
+234,Mental Health Care
+235,Law Practice
+236,Legislative Office
+237,Sporting Goods
+238,"Leisure, Travel & Tourism"
+239,Utilities
+240,"Health, Wellness and Fitness"
+241,Fund-Raising
+242,Market Research
+243,Hospitality
+244,Textiles
+245,Retail
+246,Sporting Goods
+247,Electrical / Electronic Manufacturing
+248,Public Relations and Communications
+249,Entertainment
+250,Computer Hardware
+251,Construction
+252,Legislative Office
+253,Graphic Design
+254,Computer Hardware
+255,Education Management
+256,Farming
+257,Professional Training & Coaching
+258,Veterinary
+259,Environmental Services
+260,Online Media
+261,Environmental Services
+262,Management Consulting
+263,Executive Office
+264,Airlines / Aviation
+265,Security and Investigations
+266,Food & Beverages
+267,Plastics
+268,Hospitality
+269,Media Production
+270,Business Supplies and Equipment
+271,Civic & Social Organization
+272,"Leisure, Travel & Tourism"
+273,Civic & Social Organization
+274,Machinery
+275,Insurance
+276,Military
+277,Farming
+278,Motion Pictures and Film
+279,Design
+280,Transportationg / Trucking / Railroad
+281,Veterinary
+282,Packaging and Containers
+283,Computer Networking
+284,Design
+285,Internet
+286,Education Management
+287,Business Supplies and Equipment
+288,Research
+289,Investment Banking
+290,Industrial Automation
+291,Industrial Automation
+292,Automotive
+293,Performing Arts
+294,Writing and Editing
+295,Graphic Design
+296,Investment Banking
+297,Government Administration
+298,Security and Investigations
+299,Sports
+300,Plastics
+301,Tobacco
+302,Ranching
+303,Performing Arts
+304,Public Policy
+305,Packaging and Containers
+306,Marketing and Advertising
+307,Individual & Family Services
+308,Executive Office
+309,Nanotechnology
+310,Performing Arts
+311,Public Safety
+312,Translation and Localization
+313,Public Safety
+314,Furniture
+315,Performing Arts
+316,Professional Training & Coaching
+317,Libraries
+318,Medical Devices
+319,Mental Health Care
+320,Veterinary
+321,Executive Office
+322,Nanotechnology
+323,Construction
+324,Recreational Facilities and Services
+325,Information Services
+326,Tobacco
+327,Printing
+328,Management Consulting
+329,Logistics and Supply Chain
+330,Computer Hardware
+331,Sporting Goods
+332,Financial Services
+333,Veterinary
+334,Information Technology and Services
+335,Semiconductors
+336,Veterinary
+337,Cosmetics
+338,Nanotechnology
+339,Human Resources
+340,Primary / Secondary Education
+341,Nonprofit Organization Management
+342,Public Policy
+343,Legislative Office
+344,Hospital & Health Care
+345,Museums and Institutions
+346,Writing and Editing
+347,Fine Art
+348,Arts and Crafts
+349,Retail
+350,Computer Software
+351,Utilities
+352,Recreational Facilities and Services
+353,Food & Beverages
+354,Events Services
+355,Facilities Services
+356,Sports
+357,Defense & Space
+358,Military
+359,Automotive
+360,Facilities Services
+361,Printing
+362,Banking
+363,E-Learning
+364,Supermarkets
+365,Broadcast Media
+366,Printing
+367,Utilities
+368,Airlines / Aviation
+369,Staffing and Recruiting
+370,Recreational Facilities and Services
+371,Dairy
+372,Tobacco
+373,Gambling & Casinos
+374,Photography
+375,Fund-Raising
+376,Newspapers
+377,Legal Services
+378,E-Learning
+379,Investment Banking
+380,Legal Services
+381,Performing Arts
+382,Aviation & Aerospace
+383,Professional Training & Coaching
+384,Wholesale
+385,"Health, Wellness and Fitness"
+386,Music
+387,Packaging and Containers
+388,Medical Practice
+389,Oil & Energy
+390,Civil Engineering
+391,Industrial Automation
+392,Investment Banking
+393,Mining & Metals
+394,Plastics
+395,Motion Pictures and Film
+396,Information Services
+397,Nonprofit Organization Management
+398,Investment Banking
+399,Utilities
+400,Computer Hardware
+401,Broadcast Media
+402,Furniture
+403,Food & Beverages
+404,Performing Arts
+405,Animation
+406,Gambling & Casinos
+407,Biotechnology
+408,Consumer Services
+409,Paper & Forest Products
+410,Plastics
+411,Music
+412,Wine and Spirits
+413,Oil & Energy
+414,Consumer Electronics
+415,Packaging and Containers
+416,Biotechnology
+417,"Health, Wellness and Fitness"
+418,Dairy
+419,Civil Engineering
+420,Arts and Crafts
+421,Market Research
+422,Chemicals
+423,Venture Capital & Private Equity
+424,Dairy
+425,Mental Health Care
+426,Investment Banking
+427,Philanthropy
+428,Capital Markets
+429,Sporting Goods
+430,Broadcast Media
+431,Civic & Social Organization
+432,Railroad Manufacture
+433,Insurance
+434,Defense & Space
+435,Design
+436,Museums and Institutions
+437,Photography
+438,"Glass, Ceramics & Concrete"
+439,Import and Export
+440,Entertainment
+441,"Health, Wellness and Fitness"
+442,Government Administration
+443,Sports
+444,Gambling & Casinos
+445,Electrical / Electronic Manufacturing
+446,Package / Freight Delivery
+447,Medical Practice
+448,Insurance
+449,Writing and Editing
+450,Financial Services
+451,Hospitality
+452,"Glass, Ceramics & Concrete"
+453,Environmental Services
+454,Maritime
+455,Primary / Secondary Education
+456,Insurance
+457,Railroad Manufacture
+458,Railroad Manufacture
+459,Gambling & Casinos
+460,Computer & Network Security
+461,Dairy
+462,Packaging and Containers
+463,Public Policy
+464,Management Consulting
+465,Fishery
+466,Public Policy
+467,Recreational Facilities and Services
+468,Fishery
+469,Legislative Office
+470,Banking
+471,Investment Management
+472,Nanotechnology
+473,Fishery
+474,Online Media
+475,Supermarkets
+476,Information Technology and Services
+477,Entertainment
+478,Public Safety
+479,Wireless
+480,Plastics
+481,Computer Games
+482,Primary / Secondary Education
+483,Architecture & Planning
+484,Luxury Goods & Jewelry
+485,Graphic Design
+486,Logistics and Supply Chain
+487,Professional Training & Coaching
+488,Individual & Family Services
+489,Recreational Facilities and Services
+490,Online Media
+491,"Health, Wellness and Fitness"
+492,Fishery
+493,Public Safety
+494,Apparel & Fashion
+495,Airlines / Aviation
+496,Writing and Editing
+497,Package / Freight Delivery
+498,Ranching
+499,Textiles
+500,Consumer Goods
