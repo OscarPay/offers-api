@@ -11,8 +11,8 @@ puts 'Users created'
 
 CSV.foreach(Rails.root.join('lib/offers.csv')) do |row|
   Offer.create({
-    price: row[2],
-    company: row[3]
+    price: row[1],
+    company: row[2]
   })
 end
 
