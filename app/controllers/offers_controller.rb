@@ -1,6 +1,4 @@
 class OffersController < ApplicationController
-  include Pagy::Backend
-
   before_action :set_offer, only: [:show, :update, :destroy]
 
   # GET /offers
@@ -43,20 +41,10 @@ class OffersController < ApplicationController
   # GET /offers/search
   def search
     #res = IntrosService.call
-    query = params[:query]
-    page = params[:page] || 1
-    wildcard_search = "%#{query}%"
-
-    options = {page: page}
-    pagy, records = pagy(Offer.where('company ILIKE ?', wildcard_search), options)
-    pagy_metadata = pagy_metadata(pagy)
+    result = SearchOffersService.new.call(params)
 
     render json: {
-      offers: records,
-      total_count: pagy_metadata.fetch(:count),
-      total_pages: pagy_metadata.fetch(:pages),
-      current_page: pagy_metadata.fetch(:page),
-      per_page: pagy_metadata.fetch(:items)
+      offers: result
     }
   end
 
