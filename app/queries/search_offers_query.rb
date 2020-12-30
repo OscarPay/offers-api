@@ -38,7 +38,7 @@ class SearchOffersQuery
         UNION ALL
         #{offers_label_query(query, departments_id).to_sql}
       )
-      SELECT * FROM joined_table ORDER BY priority, price #{sort} LIMIT $3 OFFSET $4
+      SELECT id, price, company, label FROM joined_table ORDER BY priority, price #{sort} LIMIT $3 OFFSET $4
     )
   end
 

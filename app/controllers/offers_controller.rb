@@ -46,6 +46,10 @@ class OffersController < ApplicationController
     render json: {
       offers: result
     }
+  rescue SearchOffersService::SearchOffersServiceError => e
+    render json: {
+      error: e.message
+    }, status: :bad_request
   end
 
   private
