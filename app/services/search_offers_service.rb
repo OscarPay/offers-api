@@ -13,20 +13,15 @@ class SearchOffersService
     user_id = params[:user_id]
     sort = params[:sort] || 'ASC'
     page = params[:page].to_i || 1
+    departments_id = params[:department_id] || []
 
     user = User.find(user_id)
-    search_query(user_id, user.company, "ASC", page, query)
+    search_query(user_id, user.company, sort, page, query, departments_id)
   end
 
   private
 
-  def search_query(user_id, user_company, sort, page, query)
-    # binds = [
-    #   ActiveRecord::Relation::QueryAttribute.new(
-    #   "id", 6, ActiveRecord::Type::Integer.new
-    #   )
-    # ]
-
+  def search_query(user_id, user_company, sort, page, query, departments_id)
     sql = %(
       WITH u_departments AS (SELECT * FROM user_departments WHERE user_id = $1),
       joined_table AS (
@@ -38,9 +33,9 @@ class SearchOffersService
         UNION ALL
         SELECT id, price, company, 'good_match' as label, 2 as priority FROM offers WHERE company = $2
         UNION ALL
-        #{offers_query(query).to_sql}
+        #{offers_query(query, departments_id).to_sql}
       )
-      SELECT * FROM joined_table ORDER BY priority, price ASC LIMIT $3 OFFSET $4
+      SELECT * FROM joined_table ORDER BY priority, price #{sort} LIMIT $3 OFFSET $4
     )
 
     ActiveRecord::Base.connection.exec_query(
@@ -55,11 +50,18 @@ class SearchOffersService
       )
   end
 
-  def offers_query(query)
+  def offers_query(query, departments_id)
     wildcard_search = "%#{query}%"
-    Offer
+    query = Offer
       .select([:id, :price, :company, "'offer' as label", "'3' as priority"])
+      .joins(:offer_departments)
       .where('company ILIKE ?', wildcard_search)
+
+    if departments_id.any?
+      query = query.where('offer_departments.department_id IN (?)', departments_id)
+    end
+
+    query
   end
 
   def offset(page)
