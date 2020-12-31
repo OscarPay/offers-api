@@ -40,7 +40,6 @@ class OffersController < ApplicationController
 
   # GET /offers/search
   def search
-    #res = IntrosService.call
     result = SearchOffersService.new.call(params)
 
     render json: {

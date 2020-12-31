@@ -1,8 +1,10 @@
 class SearchOffersService
   class SearchOffersServiceError < StandardError; end
 
-  def initialize
+  def initialize(service = IntrosService, generator = GenerateValuesQuery)
     @sort_opts = %w[ASC DESC]
+    @service = service
+    @generator = generator
   end
 
   def call(params)
@@ -20,8 +22,11 @@ class SearchOffersService
       raise SearchOffersServiceError.new "sort allowed values: #{@sort_opts.join(', ')}"
     end
 
+    intros = @service.call
+    intros_sql = @generator.new.call(intros['intros'].slice(0, 5))
+
     user = User.find(user_id)
-    SearchOffersQuery.new(user).call(sort, page.to_i, query, departments_id)
+    SearchOffersQuery.new(user).call(sort, page.to_i, query, departments_id, intros_sql)
   end
 
 end
