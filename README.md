@@ -1,24 +1,22 @@
-# README
+# RoR technical assignment
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Steps to run the project
 
-Things you may want to cover:
+### Install and run postgres
 
-* Ruby version
+- ```docker run -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=postgres -d postgres```
+- ```docker start postgres```
 
-* System dependencies
+### Prepare the seeds
 
-* Configuration
+- ``` bundle exec rails db:create ```
+- ``` bundle exec rails db:migrate ```
+- ``` bundle exec rails db:seed ```
 
-* Database creation
+### Run the server
 
-* Database initialization
+- ``` bundle exec rails s ```
 
-* How to run the test suite
+### Test offers endpoint
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- ``` http://localhost:3000/offers/search ```
